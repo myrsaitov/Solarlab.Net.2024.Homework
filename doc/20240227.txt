@@ -1,0 +1,70 @@
+00:19
+Клинет-серверная архитектура
+
+
+
+00:24
+Литература для начинающих (Backend .NET)
+
+1. Книги
+Чтоб нормально разбираться в C# нужно читать книжки, обычно рекомендуют эту троицу:
+- Герберт Шилдт - C# Учебный курс или Полное руководство
+- Andrew Troelsen. Pro C# 5.0 and the .NET 4.5 Framework
+- Рихтер Дж. - CLR via C#. Программирование на платформе Microsoft .NET Framework 4.5 на языке C#. 4-е изд. (бессмертная классика)
+Также можно найти что-то посвежее, почитать про новинки C#, либо ознакомиться хотя бы со стандартной документацией на MSDN:
+https://learn.microsoft.com/en-us/dotnet/csharp/?WT.mc_id=dotnet-35129-website
+https://learn.microsoft.com/en-us/aspnet/core/?view=aspnetcore-7.0&WT.mc_id=dotnet-35129-website
+
+2. Курсы для практики 
+Чтоб стать программистов недостаточно читать книжки, нужно самому писать программы.
+Если нет опыта - достаточно разбирать готовые примеры.
+Как вариант - начать читать (и делать все примеры) на Метаните
+https://metanit.com/sharp/tutorial/
+https://metanit.com/sharp/aspnet6/
+
+3. Полезные сайты
+- Хабр, stackoverflow, MSDN
+Много полезной и актуальной информации можно получать из статей, хотя бы ознакомиться с основной документацией 
+https://learn.microsoft.com/ru-ru/dotnet/
+https://learn.microsoft.com/ru-ru/aspnet/core/?view=aspnetcore-7.0
+https://devblogs.microsoft.com/dotnet/category/csharp/
+
+4. Вопросы на собеседование
+На любом собеседовании, даже на trainee нужно обладать минимально-необходимой теоретической базой
+Вопросов в "этих ваших интернетах" более чем предостаточно, вот, например:
+https://itvdn.com/ru/blog/article/150-questions-net-developer
+
+5. Roadmap
+Помимо знаний по C# Web-разработчик ещё должен знать (или, хотя бы, иметь представление) о целом стеке сопутствующих технологий.
+https://roadmap.sh/ - на этом сайте полно "дорожных карт", в том числе и по ASP.NET
+https://roadmap.sh/aspnet-core
+
+
+Полезные ссылки:
+
+https://sharplab.io/
+
+https://vk.com/doc3989972_437393803?hash=380e5aaf1ab0720259&dl=bf6d706a167e3e33ec
+https://vk.com/doc139223857_437036198?hash=acdc8c6aa7811acf6f&dl=462b65fae05e3c0068
+
+https://habr.com/ru/company/itelma/blog/546372/
+
+https://habr.com/ru/post/495698/
+
+
+https://learn.microsoft.com/en-us/dotnet/csharp/?WT.mc_id=dotnet-35129-website
+
+https://learn.microsoft.com/en-us/aspnet/core/?view=aspnetcore-7.0&WT.mc_id=dotnet-35129-website
+
+
+00:25
+Swagger и Postman
+
+
+01:12
+NetFramework для новых проектов
+
+
+01:21
+https://versionsof.net/
+https://time.graphics/line/593132

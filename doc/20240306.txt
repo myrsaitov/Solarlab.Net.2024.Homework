@@ -1,0 +1,8 @@
+
+https://github.com/Dzitsky/SolarLab.Academy.git
+https://metanit.com/sharp/aspnet6/
+https://metanit.com/sharp/tutorial/3.12.php
+
+https://devblogs.microsoft.com/dotnet/performance-improvements-in-net-8/
+
+https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions

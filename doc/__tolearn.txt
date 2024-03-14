@@ -1,0 +1,39 @@
+Разобрать и выучить:
+
+Это базовая база!
+Основы программирования: Легендарный Гарвардский курс CS50
+Весь курс CS50 - https://javarush.com/s/course_cs50
+
+
+MVC
+
+
+Архитектура:
+    Шаблоны проектирования GOF
+        https://habr.com/ru/articles/210288/
+    Методы рефакторинга, "запахи кода"
+        https://habr.com/ru/articles/169139/
+	
+	
+Почему папка с DTO называется Contracts
+    https://ardalis.com/web-api-dto-considerations/
+    The DTO provides a contract for the shape of the data. Since behavior doesn't transfer between client and server, and since client and server may not even use the same platform, framework, or language, it's best to use a simple DTO (that can serialize to JSON or another format) for web API requests and results.
+
+    By definition, DTOs only contain data, not behavior.
+	
+	
+	
+	https://restfulapi.net/resource-naming/
+    Как строятся маршруты?
+    Какие методы применяем к тому или иному случаю?
+    Коды ответов (основные 200, 302, 400, 401, 403, 404, 500 ... информационные и экшн): в каком случае что мы должны отдавать?
+	
+	
+	
+Методология TDD:
+    https://habr.com/ru/companies/ruvds/articles/450316/
+	
+	
+CancellationTocken
+
+Глаголов не должно быть в пути
