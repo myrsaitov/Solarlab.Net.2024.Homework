@@ -1,5 +1,9 @@
 #!/bin/bash
 
 ROOT=./..
-SOLUTION=Homework
+
+SOLUTION_NAME=Homework
+SOLUTION_PATH=$ROOT/src
+SOLUTION=$SOLUTION_PATH/$SOLUTION_NAME.sln
+
 MICROSERVICE=Advertisements

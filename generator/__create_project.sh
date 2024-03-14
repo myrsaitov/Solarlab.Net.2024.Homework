@@ -9,14 +9,30 @@ function __create_project()
     
     TEMPLATE=$1
     PROJECT=$2
+    PROJECT_DIR=$ROOT/src/$PROJECT/$MICROSERVICE.$PROJECT
 
-    dotnet new $TEMPLATE --output $ROOT/src/$PROJECT/$MICROSERVICE.$PROJECT
-    dotnet sln $ROOT/src/$SOLUTION.sln add $ROOT/src/$PROJECT/$MICROSERVICE.$PROJECT
-    
-    # Удаляет автоматически сгенерированный файл "Class1.cs"
-    dotnet new class --project $ROOT/src/$PROJECT/$MICROSERVICE.$PROJECT/$MICROSERVICE.$PROJECT.csproj --output $ROOT/src/$PROJECT/$MICROSERVICE.$PROJECT --name Advertisement
-    if [ -f "$ROOT/src/$PROJECT/$MICROSERVICE.$PROJECT/Class1.cs" ] ; then
-        rm "$ROOT/src/$PROJECT/$MICROSERVICE.$PROJECT/Class1.cs"
+    # Проверяет, существует ли директория с проектом
+    if [ -d "$PROJECT_DIR" ]; then
+
+        # Если директория существует, то ничего не делаем
+        echo "Directory \"$PROJECT_DIR\" exists. There is nothing to do!"
+
+    else
+
+        # Если директории не существует, то создаем проект
+        echo "Directory \"$PROJECT_DIR\" does not exist. Creating the project!"
+
+        # Создаёт проект по шаблону
+        dotnet new $TEMPLATE --output $PROJECT_DIR
+
+        # Добавляет проект в Solution
+        dotnet sln $SOLUTION add $PROJECT_DIR
+        
+        # Удаляет автоматически сгенерированный файл "Class1.cs"
+        if [ -f "$PROJECT_DIR/Class1.cs" ] ; then
+            rm "$PROJECT_DIR/Class1.cs"
+        fi
+
     fi
 
 }
