@@ -50,3 +50,22 @@ https://docs.google.com/document/d/1S8R-N43E4dj0fB-cgCbQDvvjB3BJX4xYuEBV4dZWss4/
 
 20:15
 https://dba.stackexchange.com/questions/264/guid-vs-int-which-is-better-as-a-primary-key
+
+
+
+2024.03.20:
+
+Lazarenko 18:17
+День добрый!
+Создал и применил запрос на слияние (merge request, pull request)
+Добавил валидацию
+https://github.com/Dzitsky/SolarLab.Academy-2024/pull/1/files
+
+
+19:18
+ORMs:
+    Linq2sql
+    Dapper
+    Hibernate
+    EF
+
