@@ -37,3 +37,13 @@ MVC
 CancellationTocken
 
 Глаголов не должно быть в пути
+
+
+"Эстимирование времени" - оценка времени на задачу:
+    Плохой пример: "Я закончу через минутку", а сам через 20 минут
+    Книга Software Estimation: Demystifying the Black Art (Developer Best Practices)
+
+Декомпозиция задачи
+
+
+https://www.youtube.com/@m0rtymerr

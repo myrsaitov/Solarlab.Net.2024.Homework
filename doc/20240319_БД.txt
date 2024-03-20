@@ -1,0 +1,52 @@
+
+
+"Вакансия Net-разработчик"
+
+18:18
+Активно избавляются от MSSQL в сторону Postgres. Достаточно бесплатной версии.
+Oracle обычно в Java.
+
+Нужно знать:
+
+    Отличие NoSQL от реляционок
+
+    Нормальные формы: 1, 2, 3
+
+    Требования к реляционным базам данных: ACID.
+        https://habr.com/ru/articles/555920/
+
+    CAP-теорема (No-SQL - "Не только SQL") - теорема о том, какие характеристики мы выбираем.
+        Солгассованность:
+            Каждое чтение даст вам самую последнюю запись.
+        Доступность:
+            Каждый узел (не упавший) всегда успешно выполняет запросы (на чтение и запись)
+        Устойчивость к распределению:
+            Даже если между узлами нет связи, они продолжают работать независимо друг от друга.
+        https://habr.com/ru/articles/328792/
+
+18:31
+Mongo - документо-ориентированные
+Elastic Search - поисковый движок
+Колончатые БД (быстрее происходит вычитка из таблицы)
+Графовые таблицы
+Специализированные (геоданные)
+
+
+18:41
+SQL - "Structure query language" - 4 языка:
+DDL
+
+
+
+https://www.freecodecamp.org/learn/relational-database/#learn-relational-databases-by-building-a-mario-database
+https://stepik.org/course/63054/syllabus
+
+
+pgAdmin4
+
+
+19:26
+https://docs.google.com/document/d/1S8R-N43E4dj0fB-cgCbQDvvjB3BJX4xYuEBV4dZWss4/edit#heading=h.typ5pgrq5q7d
+
+20:15
+https://dba.stackexchange.com/questions/264/guid-vs-int-which-is-better-as-a-primary-key
