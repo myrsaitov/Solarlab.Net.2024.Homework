@@ -1,0 +1,39 @@
+version: '3.9'
+
+services:
+  mssql:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    restart: always
+    ports:
+      - 1433:1433
+    volumes:
+      - ~/apps/mssql/data:/var/lib/mssqlql/data
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=password123
+    volumes: # persist data even if container shuts down
+      - mssql_data:/var/opt/mssql/
+
+  postgres:
+    image: postgres
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password
+    volumes:
+      - pg-data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+      
+  adminer:
+    image: adminer
+    ports:
+      - 8080:8080
+
+volumes: # named volumes can be managed easier using docker-compose
+  mssql_data:
+  pg-data:
+
+networks:
+  default:
+    external:
+      name: local
