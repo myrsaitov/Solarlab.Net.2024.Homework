@@ -1,0 +1,2 @@
+https://metanit.com/sharp/tutorial/15.1.php
+https://docs.automapper.org/en/stable/Queryable-Extensions.html
